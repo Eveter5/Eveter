@@ -14,7 +14,7 @@ frontend:
         - echo "Running your build command..."
         - pnpm run build   # or replace with your actual build command
   artifacts:
-    baseDirectory: /build  # adjust to your build output directory if needed
+    baseDirectory: /.next  # adjust to your build output directory if needed
     files:
       - '**/*'
   cache:
