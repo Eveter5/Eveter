@@ -7,6 +7,8 @@ frontend:
         - npm install -g pnpm
         - echo "pnpm installed successfully"
         - pnpm --version  # optional: to verify installation
+        - nvm install 16  # or the Node.js version you require
+        - nvm use 16
     build:
       commands:
         - echo "Running pnpm install..."
