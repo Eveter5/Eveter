@@ -1,0 +1,22 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - echo "Installing pnpm globally..."
+        - npm install -g pnpm
+        - echo "pnpm installed successfully"
+        - pnpm --version  # optional: to verify installation
+    build:
+      commands:
+        - echo "Running pnpm install..."
+        - pnpm install --frozen-lockfile
+        - echo "Running your build command..."
+        - pnpm run build   # or replace with your actual build command
+  artifacts:
+    baseDirectory: /build  # adjust to your build output directory if needed
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
