@@ -3,20 +3,21 @@ frontend:
   phases:
     preBuild:
       commands:
+        - echo "Setting up Node.js environment..."
+        - nvm install 16  # Install and switch to Node.js 16 (or your required version)
+        - nvm use 16
         - echo "Installing pnpm globally..."
         - npm install -g pnpm
         - echo "pnpm installed successfully"
-        - pnpm --version  # optional: to verify installation
-        - nvm install 16  # or the Node.js version you require
-        - nvm use 16
+        - pnpm --version  # Optional: verify the pnpm installation
     build:
       commands:
         - echo "Running pnpm install..."
         - pnpm install --frozen-lockfile
         - echo "Running your build command..."
-        - pnpm run build   # or replace with your actual build command
+        - pnpm run build   # Replace with your actual build command if different
   artifacts:
-    baseDirectory: /.next  # adjust to your build output directory if needed
+    baseDirectory: /.next  # Adjust this if your build output directory is different
     files:
       - '**/*'
   cache:
