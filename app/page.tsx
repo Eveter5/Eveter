@@ -188,7 +188,7 @@ export default function Home() {
 
 
           <div className="text-center w-full hero-text-container">
-            <p className="text-center mx-auto">Turn raw footage into cinematic masterpiece with my expert editing!</p>
+            <p className="text-center mx-auto">Whether you're a Founder, Coach, or B2B Brand — your video presence is your BRAND. I help you show up powerfully and consistently on YouTube and beyond.</p>
           </div>
 
           <button
@@ -214,14 +214,14 @@ export default function Home() {
           {[
             {
               id: 1,
-              title: "Client 1",
-              description: "The raw footage was analyzed to identify key moments and establish a narrative structure.",
+              title: "30 Days to monetization",
+              description: "From 0 to 1000 subscribers and earning money from YouTube in just 30 days.",
             },
             {
               id: 2,
-              title: "Client 2",
+              title: "First Video Ever 400+ Subs",
               description:
-                "Advanced color correction techniques were applied to create a consistent and cinematic look.",
+                "First video ever uploaded on brand new channel got my client 421 subscribers in just 66days, you want to know how? read ahead!",
             },
           ].map((item) => (
             <div key={item.id} className="screenshot-item-container">
