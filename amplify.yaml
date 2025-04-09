@@ -3,9 +3,6 @@ frontend:
   phases:
     preBuild:
       commands:
-        - echo "Setting up Node.js environment..."
-        - nvm install 16  # Install and switch to Node.js 16 (or your required version)
-        - nvm use 16
         - echo "Installing pnpm globally..."
         - npm install -g pnpm
         - echo "pnpm installed successfully"
