@@ -167,7 +167,7 @@ export default function Home() {
           <div className="text-center w-full hero-text-container">
             <h1>
               <TypingEffect
-                strings={["PREMIUM VIDEO EDITING"]}
+                strings={["Your GO TO Solution for Social Media growth."]}
                 typeSpeed={70}
                 backSpeed={50}
                 loop={false}
