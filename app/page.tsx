@@ -228,7 +228,7 @@ export default function Home() {
 
                 <div className="screenshot-item">
                   <img
-                    src={`/ZwyrooScreen${item.id}`}.png?height=1080&width=1920&text=Screenshot ${item.id}`}
+                    src={`/ZwyrooScreen${item.id}}.png?height=1080&width=1920&text=Screenshot ${item.id}`}
                     alt={`Case Study Screenshot ${item.id}`}
                     className="screenshot-image"
                   />
