@@ -42,27 +42,27 @@ const verticalVideos = [
    {
     id: "v1",
     title: "Vertical Reel 1",
-    src: "https://www.youtube.com/embed/NXjs3g3k89Q",
+    src: "https://www.youtube.com/embed/TEq-Yw1YHMA?&mute=1",
   },
   {
     id: "v2",
     title: "Vertical Reel 2",
-    src: "https://www.youtube.com/embed/668nUCeBHyY",
+    src: "https://www.youtube.com/embed/668nUCeBHyY?&mute=1",
   },
   {
     id: "v3",
     title: "Vertical Reel 3",
-    src: "https://www.youtube.com/embed/LXb3EKWsInQ",
+    src: "https://www.youtube.com/embed/NXjs3g3k89Q?&mute=1",
   },
   {
     id: "v4",
     title: "Vertical Reel 4",
-    src: "https://www.youtube.com/embed/mkgpeWbHrjA",
+    src: "https://www.youtube.com/embed/NXjs3g3k89Q?&mute=1",
   },
   {
     id: "v5",
     title: "Vertical Reel 5",
-    src: "https://www.youtube.com/embed/aqz-KE-bpKQ",
+    src: "https://www.youtube.com/embed/mdi_xK0VmHo?&mute=1",
   },
 ];
 
