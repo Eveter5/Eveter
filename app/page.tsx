@@ -203,7 +203,7 @@ export default function Home() {
               }
             }}
           >
-            Start Your Project Today
+            Grow My Channel
           </button>
         </div>
       </section>
@@ -221,7 +221,7 @@ export default function Home() {
               id: 2,
               title: "First Video Ever 400+ Subs",
               description:
-                "First video ever uploaded on brand new channel got my client 421 subscribers in just 66days, you want to know how? read ahead!",
+                "First video ever uploaded on brand new channel got my client 421 subscribers in just 66days.",
             },
           ].map((item) => (
             <div key={item.id} className="screenshot-item-container">
