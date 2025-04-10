@@ -228,7 +228,7 @@ export default function Home() {
 
                 <div className="screenshot-item">
                   <img
-                    src={`/placeholder.svg?height=1080&width=1920&text=Screenshot ${item.id}`}
+                    src={`/1st video.png?height=1080&width=1920&text=Screenshot ${item.id}`}
                     alt={`Case Study Screenshot ${item.id}`}
                     className="screenshot-image"
                   />
