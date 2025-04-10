@@ -262,7 +262,7 @@ export default function Home() {
           <div className="testimonial-content">
             <div className="client-photo-container">
               <img
-                src="placeholder.jpg?height=120&width=120"
+                src="ZwyroPicture.jpg?height=120&width=120"
                 alt="Client"
                 className="client-photo"
                 width={120}
