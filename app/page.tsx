@@ -228,7 +228,7 @@ export default function Home() {
 
                 <div className="screenshot-item">
                   <img
-                    src={`/ZwyrooScreen${item.id}}.png?height=1080&width=1920&text=Screenshot ${item.id}`}
+                    src={`ZwyrooScreen${item.id}.png?height=1080&width=1920&text=Screenshot${item.id}`}
                     alt={`Case Study Screenshot ${item.id}`}
                     className="screenshot-image"
                   />
@@ -262,7 +262,7 @@ export default function Home() {
           <div className="testimonial-content">
             <div className="client-photo-container">
               <img
-                src="/placeholder.svg?height=120&width=120"
+                src="placeholder.jpg?height=120&width=120"
                 alt="Client"
                 className="client-photo"
                 width={120}
@@ -294,7 +294,7 @@ export default function Home() {
                   className="marquee-item-img"
                   loading="eager"
                   onError={(e) => {
-                    e.currentTarget.src = `/placeholder.svg?height=80&width=80&text=${item.name.charAt(0)}`;
+                    e.currentTarget.src = `/placeholder.jpg?height=80&width=80&text=${item.name.charAt(0)}`;
                   }}
                 />
                 <div className="marquee-item-content">
@@ -316,7 +316,7 @@ export default function Home() {
                   className="marquee-item-img"
                   loading="eager"
                   onError={(e) => {
-                    e.currentTarget.src = `/placeholder.svg?height=80&width=80&text=${item.name.charAt(0)}`;
+                    e.currentTarget.src = `/placeholder.jpg?height=80&width=80&text=${item.name.charAt(0)}`;
                   }}
                 />
                 <div className="marquee-item-content">
@@ -345,7 +345,7 @@ export default function Home() {
                   className="marquee-item-img"
                   loading="eager"
                   onError={(e) => {
-                    e.currentTarget.src = `/placeholder.svg?height=80&width=80&text=${item.name.charAt(0)}`;
+                    e.currentTarget.src = `/placeholder.jpg?height=80&width=80&text=${item.name.charAt(0)}`;
                   }}
                 />
                 <div className="marquee-item-content">
@@ -367,7 +367,7 @@ export default function Home() {
                   className="marquee-item-img"
                   loading="eager"
                   onError={(e) => {
-                    e.currentTarget.src = `/placeholder.svg?height=80&width=80&text=${item.name.charAt(0)}`;
+                    e.currentTarget.src = `/placeholder.jpg?height=80&width=80&text=${item.name.charAt(0)}`;
                   }}
                 />
                 <div className="marquee-item-content">
