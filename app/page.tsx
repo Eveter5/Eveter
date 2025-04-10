@@ -12,8 +12,8 @@ import { useState } from 'react'
 const portfolioVideos = [
   {
     id: "1",
-    title: "Cinematic Montage",
-    src: "https://www.youtube.com/embed/ScMzIvxBSi4",
+    title: "Entertainment Gaming Video",
+    src: "https://www.youtube.com/embed/NS4CXPVQxeM&t",
   },
   {
     id: "2",
