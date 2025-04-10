@@ -13,12 +13,12 @@ const portfolioVideos = [
   {
     id: "1",
     title: "Entertainment Gaming Video",
-    src: "https://www.youtube.com/embed/NS4CXPVQxeM?autoplay=1&mute=1",
+    src: "https://www.youtube.com/embed/NS4CXPVQxeM?&mute=1",
   },
   {
     id: "2",
-    title: "Nature Documentary",
-    src: "https://www.youtube.com/embed/668nUCeBHyY",
+    title: "Entertainment Gaming Video",
+    src: "https://www.youtube.com/embed/vI94cWuSmoc?&mute=1",
   },
   {
     id: "3",
