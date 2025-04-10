@@ -13,7 +13,7 @@ const portfolioVideos = [
   {
     id: "1",
     title: "Entertainment Gaming Video",
-    src: "https://www.youtube.com/embed/NS4CXPVQxeM&t",
+    src: "https://www.youtube.com/embed/NS4CXPVQxeM?autoplay=1&mute=1",
   },
   {
     id: "2",
