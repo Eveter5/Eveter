@@ -47,7 +47,7 @@ const verticalVideos = [
   {
     id: "v2",
     title: "Vertical Reel 2",
-    src: "https://www.youtube.com/embed/668nUCeBHyY?&mute=1",
+    src: "https://www.youtube.com/embed/dG-aA4uMIl4?&mute=1",
   },
   {
     id: "v3",
