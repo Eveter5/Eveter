@@ -22,18 +22,18 @@ const portfolioVideos = [
   },
   {
     id: "3",
-    title: "Travel Highlights",
-    src: "https://www.youtube.com/embed/LXb3EKWsInQ",
+    title: "Entertainment Gaming Video",
+    src: "https://www.youtube.com/embed/Lm-Hdabn81s?&mute=1",
   },
   {
     id: "4",
-    title: "Aerial Cinematography",
-    src: "https://www.youtube.com/embed/mkgpeWbHrjA",
+    title: "Entertainment Gaming Video",
+    src: "https://www.youtube.com/embed/gd9NOwpGoBY?&mute=1",
   },
   {
     id: "5",
-    title: "Sports Highlights",
-    src: "https://www.youtube.com/embed/aqz-KE-bpKQ",
+    title: "Entertainment Gaming Video",
+    src: "https://www.youtube.com/embed/tY3B101xIkg?&mute=1",
   },
 ]
 
@@ -42,7 +42,7 @@ const verticalVideos = [
   {
     id: "v1",
     title: "Vertical Reel 1",
-    src: "https://www.youtube.com/embed/ScMzIvxBSi4",
+    src: "https://www.tiktok.com/@keksereslol/video/7407475603596709153",
   },
   {
     id: "v2",
