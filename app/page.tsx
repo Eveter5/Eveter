@@ -217,6 +217,15 @@ export default function Home() {
               title: "30 Days to monetization",
               description: "From 0 to 1000 subscribers and earning money from YouTube in just 30 days.",
             },
+         ].map((item) => (
+            <div key={item.id} className="screenshot-item-container">
+
+                <div className="screenshot-item">
+                  <img
+                    src={`/Zwyro30DGraphWatermarked.png?height=1080&width=1920&text=Screenshot ${item.id}`}
+                    alt={`Case Study Screenshot ${item.id}`}
+                    className="screenshot-image"
+                  />
             {
               id: 2,
               title: "First Video Ever 400+ Subs",
