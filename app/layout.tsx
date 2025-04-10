@@ -13,7 +13,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Eveter - Professional Video Editing",
-  description: "Turn raw footage into cinematic masterpiece with expert editing!",
+  description: "Your GO TO Solution for Social Media Growth!",
   icons: {
     icon: "/logo-bg.png",
   },
