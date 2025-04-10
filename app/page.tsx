@@ -39,14 +39,11 @@ const portfolioVideos = [
 
 // Sample vertical video data
 const verticalVideos = [
-  {
-  id: "v1",
-  title: "Vertical Reel 1",
-  embedHtml: `<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@keksereslol/video/7407475603596709153" data-video-id="7407475603596709153" style="max-width: 605px;min-width: 325px;" > 
-    <section> </section> 
-  </blockquote> 
-  <script async src="https://www.tiktok.com/embed.js"></script>`
-}
+   {
+    id: "v1",
+    title: "Vertical Reel 1",
+    src: "https://www.youtube.com/embed/NXjs3g3k89Q",
+  },
   {
     id: "v2",
     title: "Vertical Reel 2",
