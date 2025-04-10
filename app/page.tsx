@@ -228,7 +228,7 @@ export default function Home() {
 
                 <div className="screenshot-item">
                   <img
-                    src={`/1st video.png?height=1080&width=1920&text=Screenshot ${item.id}`}
+                    src={`/ZwyrooScreen${item.id}`}.png?height=1080&width=1920&text=Screenshot ${item.id}`}
                     alt={`Case Study Screenshot ${item.id}`}
                     className="screenshot-image"
                   />
@@ -273,8 +273,8 @@ export default function Home() {
               <p>&quot;His communication & editing are great, highly recommend for high quality work&quot;</p>
             </div>
             <div className="client-info">
-              <h4>Zwyro</h4>
-              <p>LoL Pro Player, part-time Content Creator</p>
+              <h4>Zwyroo</h4>
+              <p>Pro League of Legends player - Content Creator</p>
             </div>
           </div>
         </div>
