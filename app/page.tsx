@@ -250,7 +250,7 @@ export default function Home() {
             <div className="video-glow-wrapper">
               <div className="video-wrapper">
                 <iframe
-                  src="https://www.youtube.com/embed/ScMzIvxBSi4"
+                  src="https://www.youtube.com/embed/AnltynSxwD8?&autoplay=1"
                   title="Client Testimonial"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
