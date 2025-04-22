@@ -178,7 +178,7 @@ export default function Home() {
 
             <div className="vsl-container">
               <iframe
-                src="https://www.youtube.com/embed/ScMzIvxBSi4"
+                src="https://www.youtube.com/embed/Y-x0efG1seA"
                 title="Video Sales Letter"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
